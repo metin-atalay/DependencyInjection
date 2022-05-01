@@ -1,7 +1,7 @@
 ### Dependency Injection without 3rd party library
 Writing a solution using Swift features like static subscripts, extensions, and Property Wrappers
 
-## Table of contents
+## Swift
 * [General info](#general-info)
 
 ## General info
