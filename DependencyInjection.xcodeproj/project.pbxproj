@@ -11,6 +11,9 @@
 		F61012E6281E6EDA0090662A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61012E5281E6EDA0090662A /* ContentView.swift */; };
 		F61012E8281E6EDB0090662A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61012E7281E6EDB0090662A /* Assets.xcassets */; };
 		F61012EB281E6EDB0090662A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61012EA281E6EDB0090662A /* Preview Assets.xcassets */; };
+		F61012F2281E6F050090662A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61012F1281E6F050090662A /* Network.swift */; };
+		F61012F4281E71B10090662A /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61012F3281E71B10090662A /* Injection.swift */; };
+		F61012F7281E76940090662A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61012F6281E76940090662A /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F61012E5281E6EDA0090662A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F61012E7281E6EDB0090662A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61012EA281E6EDB0090662A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F61012F1281E6F050090662A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F61012F3281E71B10090662A /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		F61012F6281E76940090662A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				F61012E5281E6EDA0090662A /* ContentView.swift */,
 				F61012E7281E6EDB0090662A /* Assets.xcassets */,
 				F61012E9281E6EDB0090662A /* Preview Content */,
+				F61012F1281E6F050090662A /* Network.swift */,
+				F61012F3281E71B10090662A /* Injection.swift */,
+				F61012F6281E76940090662A /* Router.swift */,
 			);
 			path = DependencyInjection;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61012E6281E6EDA0090662A /* ContentView.swift in Sources */,
+				F61012F4281E71B10090662A /* Injection.swift in Sources */,
+				F61012F7281E76940090662A /* Router.swift in Sources */,
 				F61012E4281E6EDA0090662A /* DependencyInjectionApp.swift in Sources */,
+				F61012F2281E6F050090662A /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
